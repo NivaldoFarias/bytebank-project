@@ -1,0 +1,19 @@
+{
+  "name": "bytebank",
+  "version": "1.0.0",
+  "description": "Bytebank project for OOP study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NivaldoFarias/oop-study-project.git"
+  },
+  "author": "Nivaldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NivaldoFarias/oop-study-project/issues"
+  },
+  "homepage": "https://github.com/NivaldoFarias/oop-study-project#readme"
+}
