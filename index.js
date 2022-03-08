@@ -14,3 +14,4 @@ let value = 200;
 CheckingAccountRicardo.transfer(value, account2);
 
 console.log(CheckingAccountRicardo);
+console.log(CheckingAccount.numOfAccounts);

@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/NivaldoFarias/oop-study-project/issues"
   },
-  "homepage": "https://github.com/NivaldoFarias/oop-study-project#readme"
+  "homepage": "https://github.com/NivaldoFarias/oop-study-project#readme",
+  "type": "module"
 }
