@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+  outline: none !important;
+  cursor: default;
+}
+
+*.hidden {
+  display: none !important;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #509c3d;
+}
+
+body #login-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 70px;
+}
+
+figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: inherit;
+  margin-top: 50px;
+  height: 30%;
+  width: 100%;
+  font-family: "Expletus Sans", cursive !important;
+  font-size: 45px;
+  color: white;
+}
+
+figure img {
+  width: 33%;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 100%;
+}
+
+textarea {
+  padding: 0 14px;
+  height: 46px;
+  width: 100%;
+  font-style: italic;
+  font-size: 1.5em;
+  color: #bababa;
+  cursor: text;
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.push-btn {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  padding: 15px;
+  width: 180px;
+  font-size: 0.9em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ec362d;
+  opacity: 0.5;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  border: 1px solid #ec362d;
+  -webkit-box-shadow: #ec362d 4px 4px 0px 0px;
+          box-shadow: #ec362d 4px 4px 0px 0px;
+  background-color: white;
+}
+
+.push-btn.clicked,
+.push-btn:hover {
+  left: 4px;
+  top: 4px;
+  -webkit-box-shadow: white 0px 0px 0px 0px;
+          box-shadow: white 0px 0px 0px 0px;
+}
